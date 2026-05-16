@@ -64,8 +64,8 @@ export const dadosCalendario = {
       corBorda: "#7b1fa2",
       // prettier-ignore
       oficinas: [
-        { nome: "Criação de Modelos de Personagens 3D" },
-        { nome: "Ciência de Dados - Introdução a Deep Learning" },
+        { nome: "Oficina de Computação em Nuvem", dias: "Seg, Qua e Sex", hora: "11h às 13h", formato: "Presencial" },
+        { nome: "Oficina de Linux", dias: "Seg, Ter e Qui", hora: "17h às 19h", formato: "Presencial" },
         { nome: "A confirmar" },
         { nome: "A confirmar" },
         { nome: "A confirmar" },
