@@ -43,17 +43,6 @@ export const oficinasAtivasData = [
     imagem: imgRedes,
     alt: "Mago flutuando na matrix",
   },
-  {
-    id: "oficina-web",
-    titulo: "Oficina de Web (JavaScript): Ciclo 2",
-    descricao:
-      "Construa sites rápidos e modernos do zero, focando em componentização e layouts responsivos.",
-    turmas: ["Quarta e Sexta: 11h às 13h"],
-    formato: "Presencial",
-    linkInscricao: "/oficinas/oficina-de-web",
-    imagem: imgWeb,
-    alt: "Mago pensando em desenvolvimento web",
-  },
  
   {
     id: "machine-learning",

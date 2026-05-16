@@ -9,6 +9,7 @@ import imgSql from "@assets/mago/oficinas/mago-sql.png";
 import imgRedes from "@assets/mago/oficinas/mago-redes.png";
 import { equipeData } from "./equipe.js";
 
+
 /*
  * DETALHES GLOBAIS DE CADA OFICINA:
  * Aqui ficam todos os dados "pesados" da página interna de cada oficina.
@@ -82,9 +83,8 @@ export const oficinasDetalhes = [
       },
     ],
     monitores: [
-      getMonitor("gabriel-soares", true),
-      getMonitor("sciel-buitrago"),
-      getMonitor("leonardo-cespedes"),
+      getMonitor("felipe-rios", true),
+      getMonitor("luiz-nicolau"),
     ].filter(Boolean),
   },
   {
@@ -268,7 +268,7 @@ export const oficinasDetalhes = [
     monitores: [
       getMonitor("jess-forster", true),
       getMonitor("gabriel-caramez"),
-      getMonitor("ricardo-bonna"),
+      getMonitor("ricardo"),
       getMonitor("gabriel-garcia"),
       getMonitor("caio-godoy"),
     ].filter(Boolean),

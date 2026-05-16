@@ -32,6 +32,9 @@ import imgDanielGodoi from "@assets/equipe/daniel-godoi.jpg";
 import imgPietraPaz from "@assets/equipe/pietra-paz.jpg";
 import imgLeticiaBorsaro from "@assets/equipe/leticia-borsaro.jpg";
 import imgMarcoMarques from "@assets/equipe/marco-marques.jpg";
+import imgFelipeRios from "@assets/equipe/felipe-rios.jpg";
+import imgRicardo from "@assets/equipe/ricardo.jpg";
+import { a } from "framer-motion/client";
 
 /*
  * COMO ADICIONAR UM NOVO MONITOR À EQUIPE:
@@ -54,6 +57,21 @@ export const equipeData = [
     ativo: true,
     linkedin: "https://www.linkedin.com/in/lucas-borges-9723b8309/",
     github: "https://github.com/Borges070",
+  },
+  {
+    id: "ricardo",
+    nome: "Ricardo Bonna",
+    descricao: "Monitor de Linux, especialista em administração de sistemas.",
+    foto: imgRicardo,
+    ativo: true,
+    github: "https://github.com/ricbonna",
+  },
+  {
+    id:"felipe-rios",
+    nome: "Felipe Rios",
+    descricao: "Especialista em Computação em Nuvem e DevOps.",
+    foto: imgFelipeRios,
+    ativo: true,
   },
   {
     id: "lucas-villas",
