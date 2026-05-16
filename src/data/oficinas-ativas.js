@@ -1,6 +1,5 @@
 import imgDados from "@assets/mago/oficinas/mago-dados.png";
 import imgRedes from "@assets/mago/oficinas/mago-redes.png";
-import imgWeb from "@assets/mago/oficinas/mago-web.png";
 import imgLinux from "@assets/mago/oficinas/mago-linux.png";
 import imgNuvem from "@assets/mago/oficinas/mago-nuvem.jpeg";
 /*
