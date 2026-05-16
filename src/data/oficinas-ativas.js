@@ -1,9 +1,8 @@
 import imgDados from "@assets/mago/oficinas/mago-dados.png";
-import imgLinux from "@assets/mago/oficinas/mago-linux.png";
 import imgRedes from "@assets/mago/oficinas/mago-redes.png";
 import imgWeb from "@assets/mago/oficinas/mago-web.png";
-import imgBlender from "@assets/mago/oficinas/monitoria-blender.png";
-
+import imgLinux from "@assets/mago/oficinas/mago-linux.png";
+import imgNuvem from "@assets/mago/oficinas/mago-nuvem.jpeg";
 /*
  * COMO CADASTRAR UMA OFICINA:
  * Preencha o bloco no array abaixo. 'linkInscricao' é o caminho da URL que abrirá
@@ -12,15 +11,26 @@ import imgBlender from "@assets/mago/oficinas/monitoria-blender.png";
  */
 export const oficinasAtivasData = [
   {
-    id: "oficina-blender",
-    titulo: "Criação de Personagens 3D: Ciclo 2",
+    id: "oficina-computação-nuvem",
+    titulo: "Oficina de Computação em Nuvem",
     descricao:
-      "Aprenda os fundamentos da criação de modelos de personagens 3D e conceitos iniciais para integração na web.",
+      "A oficina tem como objetivo desenvolver a capacidade técnica para criação de servidores virtuais, publicação de aplicações simples na internet, gerenciamento de permissões de acesso, armazenamento de arquivos em nuvem e monitoramento básico de recursos.",
     turmas: ["Segunda, Quarta e Sexta: 11h às 13h"],
     formato: "Presencial",
-    linkInscricao: "/oficinas/criacao-de-personagens-3d",
-    imagem: imgBlender,
-    alt: "Mago ao lado de personagens 3D",
+    linkInscricao: "/oficinas/oficina-computacao-nuvem",
+    imagem: imgNuvem,
+    alt: "Mago ao lado ",
+  },
+   {
+    id: "oficina-linux",
+    titulo: "Oficina de Linux: Ciclo 3",
+    descricao:
+      "Faça seu proprio kernel e aprenda a fundo como o linux e feito.",
+    turmas: ["Segunda, Terça e Quinta: 17h às 19h"],
+    formato: "Presencial",
+    linkInscricao: "/oficinas/oficina-de-linux",
+    imagem: imgLinux,
+    alt: "Mago ao lado do pinguim Tux",
   },
   {
     id: "intro-redes",
@@ -44,17 +54,7 @@ export const oficinasAtivasData = [
     imagem: imgWeb,
     alt: "Mago pensando em desenvolvimento web",
   },
-  {
-    id: "oficina-linux",
-    titulo: "Oficina de Linux: Ciclo 2",
-    descricao:
-      "Domine o terminal, permissões e scripts básicos essenciais para o dia a dia do desenvolvedor.",
-    turmas: ["Segunda e Quinta: 17h às 19h"],
-    formato: "Presencial",
-    linkInscricao: "/oficinas/oficina-de-linux",
-    imagem: imgLinux,
-    alt: "Mago ao lado do pinguim Tux",
-  },
+ 
   {
     id: "machine-learning",
     titulo: "Ciência de Dados - Machine Learning: Ciclo 2",

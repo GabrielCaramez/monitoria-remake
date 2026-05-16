@@ -1,3 +1,4 @@
+import imgNuvem from "@assets/mago/oficinas/mago-nuvem.jpeg";
 import img3D from "@assets/mago/oficinas/monitoria-blender.png";
 import imgJava from "@assets/mago/oficinas/mago-redes.png";
 import imgWeb from "@assets/mago/oficinas/mago-web.png";
@@ -38,6 +39,54 @@ const getMonitor = (id, isLider = false, infoExtra = "") => {
 };
 
 export const oficinasDetalhes = [
+  {
+    slug: "oficina-computacao-nuvem",
+    titulo: "Computação em Nuvem",
+    campus: "Campus Asa Norte",
+    horarios: "Segunda, Quarta e Sexta, das 11h às 13h",
+    imagem: imgNuvem,
+    alt: "Oficina de Computação em Nuvem com o Mago manipulando nuvens digitais",
+    botoes: [
+      {
+        texto: "Inscreva-se Agora",
+        link: "https://forms.gle/znc7K3u426sRbedq5",
+        tipo: "primary",
+      },
+    ],
+    sobre: [
+      {
+        titulo: "",
+        texto:
+          "Durante esta oficina, serão apresentados os fundamentos da computação em nuvem com foco na plataforma Amazon Web Services, abordando os principais serviços utilizados no mercado para hospedagem, armazenamento, gerenciamento e monitoramento de aplicações. Os participantes irão aprender, de forma prática, como criar e administrar ambientes em nuvem utilizando serviços como Amazon EC2, Amazon S3, AWS IAM e Amazon CloudWatch.<br/><br/>Esta oficina faz parte de uma trilha ofertada pela monitoria de TI da Asa Norte que tem como objetivo Amazon EC2, Amazon S3, AWS IAM e Amazon CloudWatch com a finalidade de  desenvolver a capacidade técnica para criação de servidores virtuais, publicação de aplicações simples na internet, gerenciamento de permissões de acesso, armazenamento de arquivos em nuvem e monitoramento básico de recursos.<br/><br/>A oficina será realizada entre os dias <strong>13/04 e 08/05</strong>, com encontros às <strong>segundas, quartas e sextas-feiras</strong>. As aulas serão ministradas <strong>presencialmente</strong>.",
+      },
+      {
+        titulo: "O que você vai aprender:",
+        texto:
+          "<strong>Fundamentos de Computação em Nuvem:</strong> Como utilizar os principais serviços da AWS e compreender conceitos essenciais de infraestrutura cloud, virtualização e escalabilidade.<br/><strong>Instâncias Virtuais com EC2:</strong> Aprenderemos a criar, configurar e gerenciar servidores virtuais na AWS para hospedar aplicações e serviços.<br/><strong>Acesso Remoto e Administração:</strong> Como acessar servidores utilizando SSH e VS Code Remote, permitindo administração prática e desenvolvimento remoto.<br/><strong>Segurança na AWS:</strong> Configuração de grupos de segurança, IP Elástico, permissões de acesso e boas práticas para proteger recursos na nuvem.<br/><strong>Armazenamento com Amazon S3:</strong> Aprenderemos a armazenar, organizar e gerenciar arquivos utilizando buckets e recursos do S3.<br/><strong>Gerenciamento de Usuários com IAM:</strong> Como controlar permissões, criar usuários e aplicar políticas de acesso seguras dentro da AWS.<br/><strong>Hospedagem de Aplicações:</strong> Aprenderemos a publicar aplicações e sites simples utilizando serviços da AWS.<br/><strong>Redes e Infraestrutura Cloud:</strong> Introdução a conceitos de VPC, sub-redes e comunicação entre recursos na nuvem.<br/><strong>Monitoramento e Observabilidade:</strong> Como acompanhar métricas, logs e desempenho dos serviços utilizando o CloudWatch.<br/><strong>Controle de Custos e Boas Práticas:</strong> Aprenderemos a monitorar gastos, configurar billing alerts e aplicar práticas recomendadas de segurança e otimização na AWS.",
+      },
+      {
+        titulo: "Projetos e Liberdade Criativa:",
+        texto:
+          "Durante toda a oficina, vocês terão liberdade para explorar os serviços da AWS e criar seus próprios ambientes em nuvem, aplicando os conceitos aprendidos em projetos práticos de infraestrutura, hospedagem e administração de servidores.",
+      },
+      {
+        titulo: "Para quem é esta oficina:",
+        texto:
+          "<ul style='margin-left: 20px; margin-bottom: 20px; list-style-type: disc;'>" +
+          "<li>Estudantes interessados em infraestrutura cloud e práticas de DevOps;</li>" +
+          "<li>Pessoas que desejam aprender AWS de forma prática e aplicada;</li>" +
+          "<li>Interessados em entender como funciona a hospedagem, gerenciamento e monitoramento de aplicações na nuvem;</li>" +
+          "<li>Alunos que desejam dar os primeiros passos em administração de servidores e serviços cloud.</li>" +
+          "</ul>" +
+          "Preencha o formulário de inscrição para garantir sua participação. <strong>As vagas são limitadas.</strong>",
+      },
+    ],
+    monitores: [
+      getMonitor("gabriel-soares", true),
+      getMonitor("sciel-buitrago"),
+      getMonitor("leonardo-cespedes"),
+    ].filter(Boolean),
+  },
   {
     slug: "criacao-de-personagens-3d",
     titulo: "Criação de Personagens 3D: Ciclo 2",
@@ -181,7 +230,7 @@ export const oficinasDetalhes = [
   // --- OFICINA DE LINUX ---
   {
     slug: "oficina-de-linux",
-    titulo: "Oficina de Linux: Ciclo 2",
+    titulo: "Oficina de Linux: Ciclo 3",
     campus: "Campus Asa Norte",
     horarios: "Segunda e Quinta, das 17h às 19h",
     imagem: imgLinux,
@@ -202,7 +251,7 @@ export const oficinasDetalhes = [
       {
         titulo: "O que você vai aprender:",
         texto:
-          "<strong>Shell e ferramentas de texto:</strong> Como utilizar o terminal, navegar pelo sistema e operar arquivos com eficiência usando ferramentas de linha de comando.<br/><strong>Estrutura real do sistema de arquivos:</strong> Como o Linux organiza seus diretórios, onde ficam os executáveis, bibliotecas e arquivos de configuração.<br/><strong>Inicialização do sistema:</strong> Como o Linux inicia, desde o boot até o carregamento dos serviços e do ambiente do usuário.<br/><strong>Gerenciamento de serviços:</strong> Como iniciar, parar e monitorar serviços com systemd e outras ferramentas.<br/><strong>Controle de processos:</strong> Como visualizar, gerenciar e encerrar processos em execução no sistema.<br/><strong>Gerenciamento de pacotes:</strong> Como instalar, atualizar e remover softwares utilizando os gerenciadores de pacotes do Linux.",
+          "<strong>Compilação do Kernel Linux:</strong> Como compilar, configurar e otimizar o Kernel Linux, selecionando módulos, drivers e realizando a instalação correta do sistema para personalizar e melhorar o desempenho do sistema operacional.<br/><strong>Criação de um Sistema de Arquivos Rai:</strong> Como criar e estruturar um sistema de arquivos raiz no Linux, organizando diretórios essenciais, bibliotecas, dependências e arquivos de configuração necessários para inicializar e operar um ambiente Linux funcional.<br/><strong>Bootloader e Inicialização Customizada:</strong> Como configurar e personalizar o processo de inicialização do Linux utilizando GRUB e U-Boot, ajustando parâmetros do kernel, initramfs e scripts de boot para controlar, otimizar e solucionar problemas na inicialização do sistema.<br/><strong>Integração de Ferramentas Essenciais:</strong> Como integrar, compilar e otimizar ferramentas essenciais no Linux, incluindo shells, utilitários de sistema, ferramentas de rede e desenvolvimento, garantindo compatibilidade, gerenciamento correto de dependências e funcionamento eficiente do ambiente.<br/><strong>Configuração de Rede e Serviços Básicos:</strong> Como configurar redes e serviços básicos no Linux, ajustando interfaces, IP, DNS, gateway e ferramentas de rede, além de implementar serviços essenciais, SSH, firewall e sincronização de tempo para garantir conectividade e segurança do sistema.<br/><strong>Gerenciamento de Pacotes Customizado:</strong> Como criar e administrar um sistema de gerenciamento de pacotes customizado no Linux, organizando repositórios, dependências, builds e atualizações para manter a distribuição segura, modular e fácil de manter.<br/><strong>Otimização, Segurança e Finalização:</strong> Como otimizar, proteger e finalizar uma distribuição Linux, aplicando técnicas de hardening, redução de tamanho, testes e documentação para criar imagens estáveis, seguras e prontas para distribuição.<br/><strong>Distribuição e Deployment:</strong> Como distribuir e manter uma distribuição Linux, organizando hospedagem, assinaturas, documentação e colaboração da comunidade para garantir atualizações, sustentabilidade e evolução contínua do projeto.",
       },
       {
         titulo: "Para quem é esta oficina:",

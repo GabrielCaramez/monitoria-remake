@@ -2,6 +2,8 @@ import imgFundamentos from "@assets/mago/oficinas/mago-fundamentos.png";
 import imgDados from "@assets/mago/oficinas/mago-dados.png";
 import imgSql from "@assets/mago/oficinas/mago-sql.png";
 import imgRedes from "@assets/mago/oficinas/mago-redes.png";
+import imgLinux from "@assets/mago/oficinas/mago-linux.png";
+import img3D from "@assets/mago/oficinas/monitoria-blender.png";
 
 /*
  * COMO CADASTRAR UMA OFICINA PASSADA:
@@ -11,6 +13,24 @@ import imgRedes from "@assets/mago/oficinas/mago-redes.png";
  * o finalzinho do link que redireciona pra página de detalhes (ex: "/oficinas/oficina-sql").
  */
 export const oficinasPassadasData = [
+  {
+    id: "oficina-blender",
+    titulo: "Oficina de Criação de Personagens 3D",
+    turmas: ["Segunda, Quarta e Sexta: 11h às 13h"],
+    formato: "Presencial",
+    linkInscricao: "/oficinas/criacao-de-personagens-3d",
+    imagem: img3D,
+    alt: "Mago ao lado ",
+  },
+   {
+    id: "oficina-linux",
+    titulo: "Oficina de Linux: Ciclo 2",
+    turmas: ["Segunda e Quinta: 17h às 19h"],
+    formato: "Presencial",
+    linkInscricao: "/oficinas/oficina-de-linux",
+    imagem: imgLinux,
+    alt: "Mago ao lado do pinguim Tux",
+  },
   {
     id: "oficina-java",
     titulo: "Oficina de Java",
