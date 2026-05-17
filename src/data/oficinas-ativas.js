@@ -1,4 +1,3 @@
-import imgDados from "@assets/mago/oficinas/mago-dados.png";
 import imgRedes from "@assets/mago/oficinas/mago-redes.png";
 import imgLinux from "@assets/mago/oficinas/mago-linux.png";
 import imgNuvem from "@assets/mago/oficinas/mago-nuvem.jpeg";
@@ -43,15 +42,4 @@ export const oficinasAtivasData = [
     alt: "Mago flutuando na matrix",
   },
  
-  {
-    id: "machine-learning",
-    titulo: "Ciência de Dados - Machine Learning: Ciclo 2",
-    descricao:
-      "Oferece uma introdução prática e acessível ao mundo do Machine Learning e Ciência de Dados.",
-    turmas: ["Terça e Quarta: 11h às 13h"],
-    formato: "Presencial",
-    linkInscricao: "/oficinas/machine-learning",
-    imagem: imgDados,
-    alt: "Mago jogando dados",
-  },
 ];

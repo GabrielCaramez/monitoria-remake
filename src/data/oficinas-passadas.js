@@ -2,9 +2,9 @@ import imgFundamentos from "@assets/mago/oficinas/mago-fundamentos.png";
 import imgDados from "@assets/mago/oficinas/mago-dados.png";
 import imgSql from "@assets/mago/oficinas/mago-sql.png";
 import imgRedes from "@assets/mago/oficinas/mago-redes.png";
-import imgLinux from "@assets/mago/oficinas/mago-linux.png";
 import img3D from "@assets/mago/oficinas/monitoria-blender.png";
 import imgWeb from "@assets/mago/oficinas/mago-web.png";
+import imgDados from "@assets/mago/oficinas/mago-dados.png";
 
 /*
  * COMO CADASTRAR UMA OFICINA PASSADA:
@@ -14,9 +14,20 @@ import imgWeb from "@assets/mago/oficinas/mago-web.png";
  * o finalzinho do link que redireciona pra página de detalhes (ex: "/oficinas/oficina-sql").
  */
 export const oficinasPassadasData = [
+    {
+    id: "machine-learning",
+    titulo: "Ciência de Dados - Machine Learning",
+    descricao:
+      "Oferece uma introdução prática e acessível ao mundo do Machine Learning e Ciência de Dados.",
+    turmas: ["Terça e Quarta: 11h às 13h"],
+    formato: "Presencial",
+    linkInscricao: "/oficinas/machine-learning",
+    imagem: imgDados,
+    alt: "Mago jogando dados",
+  },
   {
     id: "oficina-web",
-    titulo: "Oficina de Web (JavaScript): Ciclo 2",
+    titulo: "Oficina de Web (JavaScript)",
     descricao:
       "Construa sites rápidos e modernos do zero, focando em componentização e layouts responsivos.",
     turmas: ["Quarta e Sexta: 11h às 13h"],
@@ -33,15 +44,6 @@ export const oficinasPassadasData = [
     linkInscricao: "/oficinas/criacao-de-personagens-3d",
     imagem: img3D,
     alt: "Mago ao lado ",
-  },
-   {
-    id: "oficina-linux",
-    titulo: "Oficina de Linux: Ciclo 2",
-    turmas: ["Segunda e Quinta: 17h às 19h"],
-    formato: "Presencial",
-    linkInscricao: "/oficinas/oficina-de-linux",
-    imagem: imgLinux,
-    alt: "Mago ao lado do pinguim Tux",
   },
   {
     id: "oficina-java",

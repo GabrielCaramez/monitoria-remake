@@ -65,6 +65,7 @@ export const equipeData = [
     foto: imgRicardo,
     ativo: true,
     github: "https://github.com/ricbonna",
+    ocultarNaEquipe: true,
   },
   {
     id:"felipe-rios",
@@ -72,6 +73,7 @@ export const equipeData = [
     descricao: "Especialista em Computação em Nuvem e DevOps.",
     foto: imgFelipeRios,
     ativo: true,
+    ocultarNaEquipe: true,
   },
   {
     id: "lucas-villas",
