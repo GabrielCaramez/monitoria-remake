@@ -32,7 +32,7 @@ export const oficinasAtivasData = [
   },
   {
     id: "intro-redes",
-    titulo: "Introdução de Redes para Cibersegurança: Ciclo 2",
+    titulo: "Estudo Dirigido de Ciberseguramça",
     descricao:
       "Esta oficina oferece uma introdução prática e essencial ao universo de Redes de Computadores sob a ótica da cibersegurança.",
     turmas: ["Segunda, Terça e Quinta: 11h às 13h"],
