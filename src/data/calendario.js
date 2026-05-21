@@ -67,6 +67,7 @@ export const dadosCalendario = {
         { nome: "Oficina de Computação em Nuvem", dias: "Seg, Qua e Sex", hora: "11h às 13h", formato: "Presencial" },
         { nome: "Oficina de Linux", dias: "Seg, Ter e Qui", hora: "17h às 19h", formato: "Presencial" },
         { nome: "Estudo Dirigido - Web Hacking", dias: "Seg, Ter e Qui", hora: "17h às 18h", formato: "Online" },
+        { nome: "Oficina de Golang", dias: "Ter, Qua, Qui e Sex", hora: "11h às 13h", formato: "Presencial" },
       ],
     },
   ],
