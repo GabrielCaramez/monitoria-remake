@@ -232,7 +232,7 @@ export const oficinasDetalhes = [
     slug: "oficina-de-linux",
     titulo: "Oficina de Linux: Ciclo 3",
     campus: "Campus Asa Norte",
-    horarios: "Segunda e Quinta, das 17h às 19h",
+    horarios: "Segunda, Terça e Quinta, das 17h às 19h",
     imagem: imgLinux,
     alt: "Mago ao lado do pinguim Tux em cenário de neve",
     botoes: [
@@ -451,9 +451,9 @@ export const oficinasDetalhes = [
   // --- INTRODUÇÃO DE REDES PARA CIBERSEGURANÇA ---
   {
     slug: "intro-redes",
-    titulo: "Introdução de Redes para Cibersegurança: Ciclo 2",
+    titulo: "Estudo Dirigido - Web Hacking ",
     campus: "Campus Asa Norte",
-    horarios: "Segunda, Terça e Quinta, das 11h às 13h",
+    horarios: "Segunda, Terça e Quinta, das 17h às 18h",
     imagem: imgRedes,
     alt: "Mago flutuando na matrix",
     botoes: [
@@ -467,12 +467,12 @@ export const oficinasDetalhes = [
       {
         titulo: "",
         texto:
-          "Durante esta oficina, de forma progressiva, os participantes verão os fundamentos de redes de computadores e segurança da informação, partindo de conceitos essenciais como a Tríade CIA e os modelos OSI/TCP-IP, até chegar à construção de redes segmentadas e protegidas com VLANs, NAT, firewalls e DMZ. Ao longo do curso, entende-se não somente como a rede funciona, mas também como ela pode ser atacada e defendida.<br/><br/>Esta oficina faz parte de uma trilha ofertada pela monitoria de TI da Asa Norte que tem como objetivo entender os fundamentos necessários para o estudo de Cibersegurança. Essencial para quem deseja dar os primeiros passos sólidos na área de redes e cibersegurança.<br/><br/>A oficina será realizada entre os dias <strong>13/04 e 07/05</strong>, com encontros às <strong>segundas, terças e quintas</strong>. As aulas serão ministradas <strong>presencialmente</strong>.",
+          "Este estudo dirigido é uma introdução prática à área de teste de intrusão (pentesting) em aplicações web, voltada para quem nunca teve contato com hacking ou segurança. Os participantes aprenderam como a web funciona por baixo dos panos, montam o próprio laboratório e exploram, em ambientes controlados e legais, as principais vulnerabilidades que afetam sistemas reais.<br/><br/>Esta oficina faz parte de uma trilha ofertada pela monitoria de TI da Asa Norte que tem como objetivo é formar pessoas autodidatas capazes de pesquisar, experimentar e continuar aprendendo sozinhas depois que o curso terminar.<br/><br/>A oficina será realizada entre os dias <strong>25/05 e 15/06</strong>, com encontros às <strong>segundas, terças e quintas</strong>. As aulas serão ministradas <strong>online</strong>.",
       },
       {
         titulo: "Programação por semana:",
         texto:
-          '<strong>Semana 1: O Alicerce</strong> – Fundamentos da Tríade CIA (Confidencialidade, Integridade e Disponibilidade) e os modelos OSI e TCP/IP.<br/><strong>Semana 2: Sobrevivência em Rede Local</strong> – O funcionamento de Switches, ataques de Camada 2 (MAC Flooding/Spoofing) e protocolos de transporte (TCP vs UDP).<br/><strong>Semana 3: O Mapa da Internet</strong> – Endereçamento IP (IPv4/CIDR), protocolos essenciais como DHCP e DNS, e a dinâmica de roteamento.<br/><strong>Semana 4: Arquitetura de Defesa</strong> – Construção de "castelos seguros" utilizando VLANs, NAT, Firewalls e zonas de segurança (DMZ).<br/><br/>Ao final, espera-se que o aluno tenha um perfil analítico e técnico, capaz de compreender o funcionamento básico de uma rede, identificar as camadas e suas principais vulnerabilidades e conceitos fundamentais como VLAN, gateway, ataques de camada, entre outros.',
+          '<strong>Evolução Contínua e Comunidade na Segurança:</strong> Como continuar evoluindo na área de segurança ofensiva através de laboratórios online, plataformas de treinamento, CTFs, bug bounty, comunidades técnicas e estudo contínuo para acompanhar novas vulnerabilidades, técnicas e ferramentas do ecossistema de cibersegurança.<br/><strong>Fundamentos da Web e Superfície de Ataque:</strong> Como funciona a comunicação na web, incluindo protocolos, requisições HTTP, DNS, cookies, sessões e APIs, compreendendo como aplicações são estruturadas e por que falhas de implementação podem gerar vulnerabilidades exploráveis.<br/><strong>Mentalidade, Ética e Legislação no Hacking:</strong> – Como desenvolver a mentalidade analítica do hacking ético, entendendo metodologias de teste, responsabilidade profissional, limites legais no Brasil e boas práticas para atuação segura e autorizada na área de segurança ofensiva.<br/><strong>Montagem de Laboratório Seguro para Testes:</strong> Como criar e configurar um ambiente próprio de estudos para pentest, utilizando máquinas virtuais, redes isoladas, aplicações vulneráveis e ferramentas de monitoramento para realizar testes de forma segura e controlada.<br/><strong>Análise de Autenticação e Controle de Acesso:</strong> Como avaliar mecanismos de login, gerenciamento de sessão, permissões e autenticação multifator, identificando falhas que permitem escalonamento de privilégios, acesso indevido e comprometimento de contas.<br/><strong>Documentação Técnica e Relatórios Profissionais:</strong> Como registrar vulnerabilidades encontradas de forma clara e organizada, criando relatórios técnicos profissionais com evidências, análise de impacto, reprodução do problema e recomendações de correção para equipes técnicas e clientes.<br/><strong>Ferramentas Essenciais do Pentester Web:</strong> Como utilizar ferramentas fundamentais de testes de segurança, incluindo interceptação de tráfego, análise de requisições, fuzzing, enumeração e automação de testes com ferramentas como o Burp Suite e outros utilitários amplamente utilizados no mercado.<br/><br/>Ao final, espera-se que o aluno tenha um perfil analítico e técnico, capaz de compreender o funcionamento básico de uma rede, identificar as camadas e suas principais vulnerabilidades e conceitos fundamentais como VLAN, gateway, ataques de camada, entre outros.',
       },
       {
         titulo: "Para quem é esta oficina:",

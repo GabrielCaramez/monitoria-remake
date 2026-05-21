@@ -32,11 +32,11 @@ export const oficinasAtivasData = [
   },
   {
     id: "intro-redes",
-    titulo: "Estudo Dirigido de Ciberseguramça",
+    titulo: "Estudo Dirigido - Web Hacking ",
     descricao:
       "Esta oficina oferece uma introdução prática e essencial ao universo de Redes de Computadores sob a ótica da cibersegurança.",
-    turmas: ["Segunda, Terça e Quinta: 11h às 13h"],
-    formato: "Presencial",
+    turmas: ["Segunda, Terça e Quinta: 17h às 18h"],
+    formato: "Online",
     linkInscricao: "/oficinas/intro-redes",
     imagem: imgRedes,
     alt: "Mago flutuando na matrix",

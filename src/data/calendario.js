@@ -57,18 +57,16 @@ export const dadosCalendario = {
     },
     {
       id: "ciclo-3",
-      nome: "Ciclo 3 (18/05 a 12/06)",
-      dataInicio: "2026-05-18",
-      dataFim: "2026-06-12",
+      nome: "Ciclo 3 (25/05 a 19/06)",
+      dataInicio: "2026-05-25",
+      dataFim: "2026-06-19",
       corBase: "#e1bee7",
       corBorda: "#7b1fa2",
       // prettier-ignore
       oficinas: [
         { nome: "Oficina de Computação em Nuvem", dias: "Seg, Qua e Sex", hora: "11h às 13h", formato: "Presencial" },
         { nome: "Oficina de Linux", dias: "Seg, Ter e Qui", hora: "17h às 19h", formato: "Presencial" },
-        { nome: "A confirmar" },
-        { nome: "A confirmar" },
-        { nome: "A confirmar" },
+        { nome: "Estudo Dirigido - Web Hacking", dias: "Seg, Ter e Qui", hora: "17h às 18h", formato: "Online" },
       ],
     },
   ],
